@@ -1,0 +1,269 @@
+body {
+    background-image: url(fundo7.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+  }
+  
+  .profile div img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+  }
+  
+  .profile div h1 {
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+    text-align: left;
+    color: #02090a;
+    display: flex;
+    
+  }
+  
+  .profile div h3 {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #23262cde;
+    display: flex;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .gridfst {
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.first {
+    width: 330px;
+    padding: 10px;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
+    display: inline-block;
+}
+  
+.first p {
+    font-size: 16px;
+    padding-left: 10px;
+    align-items: center;
+}
+  
+.first img {
+    width: 100%;
+}
+
+.gridscd {
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.second {
+    width: 330px;
+    padding: 10px;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
+    display: inline-block;
+}
+  
+.second p {
+    font-size: 16px;
+    padding-left: 10px;
+}
+  
+  .second img {
+    width: 100%;
+}
+
+.gridtrd {
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.third {
+    width: 330px;
+    padding: 10px;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
+    display: inline-block;
+}
+  
+.third p {
+    font-size: 16px;
+    padding-left: 10px;
+}
+  
+.third img {
+    width: 100%;
+}
+
+.gridfth {
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.fourth {
+    width: 330px;
+    padding: 10px;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+.fourth p {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.fourth img {
+    width: 100%;
+}
+
+  
+  @media (min-width: 768px) {
+
+    body {
+        background-image: url(opc2.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+      
+    .profile div img {
+        width: 180px;
+        height: 200px;
+        margin-left: 50px;
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+      
+    .profile div h1 {
+        font-family: 'Lucida Sans';
+        font-size: 22px;
+        text-align: left;
+        color: #131320;  
+    }
+      
+    .profile div h3 {
+        font-family: "Arial", sans-serif;
+        font-size: 14px;
+        text-align: left;
+        color: #140920;
+    }
+
+    .gridfst {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first {
+        width: 330px;
+        padding: 10px;
+        background: #fff;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border: 1px solid #000;
+        display: inline-block;
+    }
+      
+    .first p {
+        font-size: 16px;
+        padding-left: 10px;
+        align-items: center;
+    }
+      
+    .first img {
+        width: 100%;
+    }
+
+    .gridscd {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second {
+        width: 330px;
+        padding: 10px;
+        background: #fff;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border: 1px solid #000;
+        display: inline-block;
+    }
+      
+    .second p {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+      
+      .second img {
+        width: 100%;
+    }
+
+    .gridtrd {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third {
+        width: 330px;
+        padding: 10px;
+        background: #fff;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border: 1px solid #000;
+        display: inline-block;
+    }
+      
+    .third p {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+      
+    .third img {
+        width: 100%;
+    }
+
+    .gridfth {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .fourth {
+        width: 330px;
+        padding: 10px;
+        background: #fff;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border: 1px solid #000;
+        display: inline-block;
+    }
+  
+    .fourth p {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+  
+    .fourth img {
+        width: 100%;
+  }
+}

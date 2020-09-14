@@ -1,7 +1,7 @@
 body {
-  background-color: #fdfcfcc5;
-  display: flex;
-  justify-content: center;
+    background-image: url(fundo7.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .Info div img {
@@ -9,7 +9,7 @@ body {
   margin-bottom: 10px;
   width: 500px;
   height: 500px;
-  display: block;
+  display: flex;
 }
   
 .all div h2 {
@@ -34,12 +34,21 @@ body {
 @media (min-width: 768px) {
 
   body {
-    background-color: #ccc6c68a;
+    background-image: url(fundo6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
   }
   
-  .Info div img {
+  .album img {
     margin-right: 10px;
     margin-bottom: 10px;
     width: 500px;
@@ -47,20 +56,20 @@ body {
     display: block;
   }
     
-  .all div h2 {
+  .texto h2 {
     font-family: "Arial", sans-serif;
     font-size: 20px;
     color: rgb(133, 34, 108);
   }
   
-  .all div img {
+  .texto img {
     margin-right: 10px;
     margin-top: 10px;
     width: 100px;
     height: 100px;
   }
   
-  .all div h3 {
+  .texto h3 {
     font-family: "Arial", sans-serif;
     font-size: 20px;
     color: rgb(10, 4, 15);
