@@ -2,13 +2,13 @@ programa {
 	funcao inicio() {
 		real a, b, op, soma, sub, mult, div, res
 		
-		escreva("Digite qual a operação vocÊ deseja efetuar:\n 1- Soma, 2-Subtração, 3-Multiplicação e 4-Divisão: ")
+		escreva("Digite qual a operacao voce deseja efetuar:\n 1- Soma, 2-Subtracao, 3-Multiplicacao e 4-Divisao: ")
 		leia(op)
 		
-		escreva("Digite o primeiro número: ")
+		escreva("Digite o primeiro numero: ")
 		leia(a)
 		
-		escreva("Digite o segundo número: ")
+		escreva("Digite o segundo numero: ")
 		leia(b)
 		
 		soma=a+b
@@ -18,19 +18,19 @@ programa {
 		
 		se (op==1)
 		    {
-		        escreva("\nO resultado da operação é: ", soma)
+		        escreva("\nO resultado da operacao e: ", soma)
 		    }
 		    senao se (op==2)
 		        {
-		           escreva("\nO resultado da operação é: ", sub) 
+		           escreva("\nO resultado da operacao e: ", sub) 
 		        }
 		    senao se(op==3)
 		        {
-		            escreva("\nO resultado da operação é: ",mult)
+		            escreva("\nO resultado da operacao e: ",mult)
 		        }
 		    senao se(op==4)
 		        {
-		            escreva("\nO resultado da operação é: ",div)
+		            escreva("\nO resultado da operacao e: ",div)
 		        }
 		        
 	}
