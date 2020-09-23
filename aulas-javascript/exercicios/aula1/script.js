@@ -1,4 +1,6 @@
-function checarSePodeDirigir(idade) {
+function checarSePodeDirigir() {
+
+let idade = prompt('Qual a idade?');
 
     if (idade >= 18) {
         alert("Já pode dirigir!");
@@ -7,4 +9,4 @@ function checarSePodeDirigir(idade) {
     }
 }
 
-checarSePodeDirigir(25);
+checarSePodeDirigir();
