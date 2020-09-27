@@ -42,7 +42,7 @@ programa {
 		            escreva("\nO resultado da operacao: ",div)
 		        } 
 		        
-		    escreva("\n Deseja fazer outra operacao?: S/N\n")
+		    escreva("\n Voce deseja fazer outra operacao?: S/N\n")
 		    leia(opcao)
 	    }
     }
