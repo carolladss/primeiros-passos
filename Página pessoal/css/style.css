@@ -1,7 +1,7 @@
 @media only screen and (min-width: 769px) {
 
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: url('../images/Background.png') no-repeat center center fixed;
     background-size: cover;
     color: rgb(65, 62, 62);
@@ -33,6 +33,7 @@
     text-align: center;
     font-size: 30px;
     font-family: 'Press Start 2P';
+    color: black;
   }
 
   .profile-title-color {
@@ -44,47 +45,60 @@
     font-size: 20px;
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
+    color: black;
   }
 
   .card-text {
     text-align: center;
-    font-family: monospace;
   }
 
   .card-icons {
     text-align: center;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 30px;
     background: #a008ae48;
   }
 
   .card-icons .icone {
     color:rgba(12, 2, 11, 0.644);
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 2px;
   }
+
+  .card-icons p {
+    color:rgba(12, 2, 11, 0.644);
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 25px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
 
   body {
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     background: url('../images/Background.png');
     background-size: cover;
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items: center;
   }  
 
   .card-body {
+    width: 100%;
+    height: auto;
     background: #f4f4f442;
-    padding: 45px;
     border-top: 15px solid #42044460;
-    position: relative;
+    margin-right: 10px;
   }
   
   .profile-img {
-    width: 80%;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 130px;
+    align-items: center;
     border-radius: 100%;
   }
   
@@ -95,7 +109,7 @@
     flex-flow: column;
     display: flex;
     flex-direction: column;
-
+    color: black;
   }
   
   .profile-title-color {
@@ -109,11 +123,11 @@
     flex-flow: column;
     display: flex;
     flex-direction: column;
+    color: black;
   }
   
   .card-text {
     text-align: center;
-    font-family: monospace;
     display: flex;
     flex-direction: column;
   }
@@ -124,13 +138,21 @@
     padding: 5px;
     background: #a008ae48;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-self: center;
     align-items: center;
+    justify-content: center;
   }
-  
+
   .card-icons .icone {
     color:rgba(12, 2, 11, 0.644);
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .card-icons p {
+    color:rgba(12, 2, 11, 0.644);
+    margin-left: 5px;
+    margin-right: 10px;
   }
 }
