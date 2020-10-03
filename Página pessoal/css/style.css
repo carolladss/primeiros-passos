@@ -80,6 +80,7 @@
     background: #f4f4f442;
     padding: 45px;
     border-top: 15px solid #42044460;
+    position: relative;
   }
   
   .profile-img {
