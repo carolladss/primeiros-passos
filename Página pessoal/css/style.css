@@ -1,98 +1,32 @@
-body {
-  background: url('../images/back.png') no-repeat center center fixed;
-  background-size: cover;
-  color: #333;
-}
+@media screen and (max-width: 768px) {
 
-.card-body {
-  max-width: 100%;
-  max-height: 100%;
-  width: 700px;
-  height: 450px;
-  margin: 40px auto;
-  background: #f4f4f442;
-  padding: 45px;
-  border-top: 15px solid #42044460;
-}
-
-.profile-img {
-  width: 190px;
-  height: 190px;
-  border-radius: 100%;
-
-}
-
-.profile-title {
-  margin-bottom: 0;
-  text-align: center;
-  font-size: 30px;
-}
-
-.profile-title-color {
-  color: #27135c;
-}
-
-.profile-subtitle {
-  text-align: center;
-  font-size: 100px;
-  font-weight: bold;
-}
-
-.card-text {
-  text-align: center;
-}
-
-.card-icons {
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-    background: #a008ae48;
-  }
-
-.card-icons .icone {
-  color:rgba(12, 2, 11, 0.644);
-  margin-left: 20px;
-}
-
-
-
-@media (min-width: 768px) {
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background: url('../images/back.png') no-repeat center center fixed;
+  body {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 70px;
+    background: url('../images/Background.png');
     background-size: cover;
     color: rgb(65, 62, 62);
   }
-  
+
   .card-body {
-    max-width: 100%;
-    max-height: 100%;
-    width: 700px;
-    height: 450px;
     margin: 40px auto;
     background: #f4f4f442;
     padding: 45px;
     border-top: 15px solid #42044460;
   }
   
-  .card-img {
-    width: 200px;
-    height: 220px;
-    margin: 0 auto;
-  }
   
   .profile-img {
-    width: 190px;
-    height: 190px;
+    width: 80%;
     border-radius: 100%;
   }
   
   .profile-title {
     margin-bottom: 0;
     text-align: center;
-    font-size: 30px;
     font-family: 'Press Start 2P';
+    flex-flow: column;
+
   }
   
   .profile-title-color {
@@ -101,26 +35,89 @@ body {
   
   .profile-subtitle {
     text-align: center;
-    font-size: 20px;
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
+    flex-flow: column;
   }
   
   .card-text {
     text-align: center;
     font-family: monospace;
+    flex-flow: column;
   }
-
+  
   .card-icons {
     text-align: center;
     border-radius: 5px;
     padding: 5px;
     background: #a008ae48;
   }
-
+  
   .card-icons .icone {
     color:rgba(12, 2, 11, 0.644);
     margin-left: 20px;
   }
-    
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url('../images/Background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(65, 62, 62);
+}
+
+.card-body {
+  width: 700px;
+  height: 450px;
+  margin: 40px auto;
+  background: #f4f4f442;
+  padding: 45px;
+  border-top: 15px solid #42044460;
+}
+
+.card-img {
+  width: 200px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+}
+
+.profile-title {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Press Start 2P';
+}
+
+.profile-title-color {
+  color: #861286;
+}
+
+.profile-subtitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.card-text {
+  text-align: center;
+  font-family: monospace;
+}
+
+.card-icons {
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  background: #a008ae48;
+}
+
+.card-icons .icone {
+  color:rgba(12, 2, 11, 0.644);
+  margin-left: 20px;
 }
